@@ -6,6 +6,6 @@ const questions = require("./question")
 const router = express.Router();
 
 router.use("/auth", auth)
-router.use("/questions", question)
+router.use("/questions", questions)
 
 module.exports = router;
