@@ -7,7 +7,7 @@ router.get("/", (req,res) => {
 })
 
 router.get("/register", (req,res) => {
-    res.send("Auth Register Page");
+    res.send("Auth register Page");
 })
 
 module.exports = router;
